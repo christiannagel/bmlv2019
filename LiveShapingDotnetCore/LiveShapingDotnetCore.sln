@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28917.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiveShapingDotnetCore", "LiveShapingDotnetCore\LiveShapingDotnetCore.csproj", "{946E1787-131A-4D08-AC0A-184ACA117C0A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{946E1787-131A-4D08-AC0A-184ACA117C0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{946E1787-131A-4D08-AC0A-184ACA117C0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{946E1787-131A-4D08-AC0A-184ACA117C0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{946E1787-131A-4D08-AC0A-184ACA117C0A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {68B7874E-9956-4EF5-88A8-E8547ED5C102}
+	EndGlobalSection
+EndGlobal
