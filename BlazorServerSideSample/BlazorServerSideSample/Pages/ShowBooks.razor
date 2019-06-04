@@ -1,0 +1,44 @@
+@page "/showbooks"
+@using BlazorServerSideSample.Data
+@using BooksLib
+
+@inject IBooksService booksService;
+
+<h1>Books</h1>
+
+@if (Books == null)
+{
+    <div>Loading...</div>
+}
+else
+{
+    <table>
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Publisher</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var book in Books)
+            {
+                <tr>
+                    <td>@book.Title</td>
+                    <td>@book.Publisher</td>
+                </tr>
+            }
+        </tbody>
+
+    </table>
+
+}
+
+@functions {
+    protected override async Task OnInitAsync()
+    {
+        Books = await booksService.GetBooksAsync();
+    }
+
+    public IEnumerable<Book> Books { get; private set; }
+}
+
