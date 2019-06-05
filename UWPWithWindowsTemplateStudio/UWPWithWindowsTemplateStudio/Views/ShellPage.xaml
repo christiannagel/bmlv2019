@@ -1,0 +1,64 @@
+﻿<Page
+    x:Class="UWPWithWindowsTemplateStudio.Views.ShellPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:winui="using:Microsoft.UI.Xaml.Controls"
+    Style="{StaticResource PageStyle}"
+    xmlns:ic="using:Microsoft.Xaml.Interactions.Core"
+    xmlns:i="using:Microsoft.Xaml.Interactivity"
+    mc:Ignorable="d">
+
+    <i:Interaction.Behaviors>
+        <ic:EventTriggerBehavior EventName="Loaded">
+            <ic:InvokeCommandAction Command="{x:Bind ViewModel.LoadedCommand}" />
+        </ic:EventTriggerBehavior>
+    </i:Interaction.Behaviors>
+
+    <SplitView
+        x:Name="splitView"
+        PanePlacement="Right"
+        OpenPaneLength="400">
+        <SplitView.Pane>
+            <Frame
+                x:Name="rightFrame"
+                BorderThickness="1,1,0,0"
+                BorderBrush="Gray"
+                Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" />
+        </SplitView.Pane>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <winui:MenuBar VerticalAlignment="Top">
+                <!--
+                TODO WTS: You can edit the text for the menu in String/en-US/Resources.resw
+                -->
+                <winui:MenuBarItem x:Uid="ShellMenuBarItem_File">
+                    <MenuFlyoutItem x:Uid="ShellMenuItem_File_Exit" Command="{x:Bind ViewModel.MenuFileExitCommand}" />
+                </winui:MenuBarItem>
+                <winui:MenuBarItem x:Uid="ShellMenuBarItem_Views">
+                    <MenuFlyoutItem x:Uid="ShellMenuItem_Views_Main" Command="{x:Bind ViewModel.MenuViewsMainCommand}" />
+                    <MenuFlyoutItem x:Uid="ShellMenuItem_Views_WebView1" Command="{x:Bind ViewModel.MenuViewsWebView1Command}" />
+                    <MenuFlyoutItem x:Uid="ShellMenuItem_Views_MediaPlayer1" Command="{x:Bind ViewModel.MenuViewsMediaPlayer1Command}" />
+                    <MenuFlyoutItem x:Uid="ShellMenuItem_Views_MasterDetail1" Command="{x:Bind ViewModel.MenuViewsMasterDetail1Command}" />
+                    <MenuFlyoutItem x:Uid="ShellMenuItem_Views_ContentGrid1" Command="{x:Bind ViewModel.MenuViewsContentGrid1Command}" />
+                    <MenuFlyoutItem x:Uid="ShellMenuItem_Views_DataGrid1" Command="{x:Bind ViewModel.MenuViewsDataGrid1Command}" />
+                    <MenuFlyoutItem x:Uid="ShellMenuItem_Views_Chart1" Command="{x:Bind ViewModel.MenuViewsChart1Command}" />
+                    <MenuFlyoutItem x:Uid="ShellMenuItem_Views_Tabbed1" Command="{x:Bind ViewModel.MenuViewsTabbed1Command}" />
+                    <MenuFlyoutItem x:Uid="ShellMenuItem_Views_Map1" Command="{x:Bind ViewModel.MenuViewsMap1Command}" />
+                    <MenuFlyoutItem x:Uid="ShellMenuItem_Views_Camera1" Command="{x:Bind ViewModel.MenuViewsCamera1Command}" />
+                    <MenuFlyoutItem x:Uid="ShellMenuItem_Views_ImageGallery1" Command="{x:Bind ViewModel.MenuViewsImageGallery1Command}" />
+                    <MenuFlyoutItem x:Uid="ShellMenuItem_Views_InkDraw1" Command="{x:Bind ViewModel.MenuViewsInkDraw1Command}" />
+                    <MenuFlyoutItem x:Uid="ShellMenuItem_Views_InkSmartCanvas1" Command="{x:Bind ViewModel.MenuViewsInkSmartCanvas1Command}" />
+                </winui:MenuBarItem>
+            </winui:MenuBar>
+            <Grid Grid.Row="1">
+                <Frame x:Name="shellFrame" />
+            </Grid>
+        </Grid>
+    </SplitView>
+
+</Page>

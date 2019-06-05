@@ -1,0 +1,576 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AppDisplayName" xml:space="preserve">
+    <value>UWPWithWindowsTemplateStudio</value>
+    <comment>Application display name</comment>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>UWPWithWindowsTemplateStudio</value>
+    <comment>Application description</comment>
+  </data>
+  <data name="ShellMenuBarItem_File.Title" xml:space="preserve">
+    <value>File</value>
+    <comment>Menu bar item Title for File</comment>
+  </data>
+  <data name="ShellMenuBarItem_Views.Title" xml:space="preserve">
+    <value>Views</value>
+    <comment>Menu bar item Title for Views</comment>
+  </data>
+  <data name="ShellMenuItem_File_Exit.Text" xml:space="preserve">
+    <value>Exit</value>
+    <comment>Menu item text for Exit</comment>
+  </data>
+  <data name="Main_Title.Text" xml:space="preserve">
+    <value>Main</value>
+    <comment>Page title for MainPage</comment>
+  </data>
+  <data name="ShellMenuItem_Views_Main.Text" xml:space="preserve">
+    <value>Main</value>
+    <comment>Menu item text for Main</comment>
+  </data>
+  <data name="WebView1_FailedMessage.Text" xml:space="preserve">
+    <value>Page failed to load. Check connection and retry.</value>
+    <comment>Load failure message for WebView1</comment>
+  </data>
+  <data name="WebView1_Loading.Text" xml:space="preserve">
+    <value>Loading...</value>
+    <comment>Loading message for WebView1</comment>
+  </data>
+  <data name="WebView1_Retry.Content" xml:space="preserve">
+    <value>retry</value>
+    <comment>Retry button for WebView1</comment>
+  </data>
+    <data name="WebView1_BrowserBackButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Back</value>
+    <comment>WebView back button automation name property for WebView1</comment>
+  </data>
+  <data name="WebView1_BrowserBackButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Back</value>
+    <comment>Back button automation tooltip property for WebView1</comment>
+  </data>
+  <data name="WebView1_BrowserForwardButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Forward</value>
+    <comment>Forward button automation name property for WebView1</comment>
+  </data>
+  <data name="WebView1_BrowserForwardButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Forward</value>
+    <comment>Forward button automation tooltip property for WebView1</comment>
+  </data>
+  <data name="WebView1_RefreshBrowserButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Refresh</value>
+    <comment>Refresh button automation name property for WebView1</comment>
+  </data>
+  <data name="WebView1_RefreshBrowserButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Refresh</value>
+    <comment>Refresh button automation tooltip property for WebView1</comment>
+  </data>
+  <data name="WebView1_OpenInBrowserButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Open in browser</value>
+    <comment>Open in browser button automation name property for WebView1</comment>
+  </data>
+  <data name="WebView1_OpenInBrowserButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Open in browser</value>
+    <comment>Open in browser button automation tooltip property for WebView1</comment>
+  </data>
+  <data name="ShellMenuItem_Views_WebView1.Text" xml:space="preserve">
+    <value>WebView1</value>
+    <comment>Menu item text for WebView1</comment>
+  </data>
+  <data name="ShellMenuItem_Views_MediaPlayer1.Text" xml:space="preserve">
+    <value>MediaPlayer1</value>
+    <comment>Menu item text for MediaPlayer1</comment>
+  </data>
+  <data name="MasterDetail1_NoSelection.Text" xml:space="preserve">
+    <value>Select an item from the list.</value>
+    <comment>No selection text for MasterDetail1</comment>
+  </data>
+  <data name="ShellMenuItem_Views_MasterDetail1.Text" xml:space="preserve">
+    <value>MasterDetail1</value>
+    <comment>Menu item text for MasterDetail1</comment>
+  </data>
+  <data name="ContentGrid1_Title.Text" xml:space="preserve">
+    <value>ContentGrid1</value>
+    <comment>Page title for ContentGrid1Page</comment>
+  </data>
+  <data name="ShellMenuItem_Views_ContentGrid1.Text" xml:space="preserve">
+    <value>ContentGrid1</value>
+    <comment>Menu item text for ContentGrid1</comment>
+  </data>
+  <data name="DataGrid1_Title.Text" xml:space="preserve">
+    <value>DataGrid1</value>
+    <comment>Page title for DataGrid1Page</comment>
+  </data>
+  <data name="ShellMenuItem_Views_DataGrid1.Text" xml:space="preserve">
+    <value>DataGrid1</value>
+    <comment>Menu item text for DataGrid1</comment>
+  </data>
+  <data name="Chart1_Title.Text" xml:space="preserve">
+    <value>Chart1</value>
+    <comment>Page title for Chart1Page</comment>
+  </data>
+  <data name="ShellMenuItem_Views_Chart1.Text" xml:space="preserve">
+    <value>Chart1</value>
+    <comment>Menu item text for Chart1</comment>
+  </data>
+  <data name="Tabbed1_PivotItem1.Header" xml:space="preserve">  
+    <value>Item 1</value>
+    <comment>First Pivot item title for Tabbed1</comment>
+  </data>
+  <data name="Tabbed1_PivotItem2.Header" xml:space="preserve">
+    <value>Item 2</value>
+    <comment>Second Pivot item title for Tabbed1</comment>
+  </data>
+  <data name="ShellMenuItem_Views_Tabbed1.Text" xml:space="preserve">
+    <value>Tabbed1</value>
+    <comment>Menu item text for Tabbed1</comment>
+  </data>
+  <data name="Map_YourLocation" xml:space="preserve">
+    <value>Your location</value>
+    <comment>Your location text on map page</comment>
+  </data>
+  <data name="ExceptionLocationServiceStartListeningCanNotBeCalled" xml:space="preserve">
+    <value>The StartListening method cannot be called before the InitializeAsync method.</value>
+    <comment>Start listening cannot be called before the initialize in location service</comment>
+  </data>
+  <data name="ShellMenuItem_Views_Map1.Text" xml:space="preserve">
+    <value>Map1</value>
+    <comment>Menu item text for Map1</comment>
+  </data>
+  <data name="Camera_Exception_UnauthorizedAccess" xml:space="preserve">
+    <value>The app was denied access to the camera or microphone.</value>
+  </data>
+  <data name="Camera_Exception_NotSupported" xml:space="preserve">
+    <value>No video capture devices found.</value>
+  </data>
+  <data name="Camera_Exception_InitializationError" xml:space="preserve">
+    <value>An error has occurred during camera control initialization.</value>
+  </data>
+  <data name="Camera_Exception_InitializationCanceled" xml:space="preserve">
+    <value>Camera control initialization has been canceled.</value>
+  </data>
+  <data name="CameraControl_CameraButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">    
+    <value>Take a photo</value>
+    <comment>Camera control button automation name property</comment>
+  </data>
+  <data name="CameraControl_CameraButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Take a photo</value>
+    <comment>Camera control button automation tooltip property</comment>
+  </data>
+  <data name="CameraControl_SwitchCameraButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">    
+    <value>Switch camera</value>
+    <comment>Camera control switch camera button automation name property</comment>
+  </data>
+  <data name="CameraControl_SwitchCameraButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Switch camera</value>
+    <comment>Camera control switch camera button automation tooltip property</comment>
+  </data>
+  <data name="ShellMenuItem_Views_Camera1.Text" xml:space="preserve">
+    <value>Camera1</value>
+    <comment>Menu item text for Camera1</comment>
+  </data>
+  <data name="ImageGallery1_Title.Text" xml:space="preserve">
+    <value>ImageGallery1</value>
+    <comment>Page title for ImageGallery1Page</comment>
+  </data>
+  <data name="ShellMenuItem_Views_ImageGallery1.Text" xml:space="preserve">
+    <value>ImageGallery1</value>
+    <comment>Menu item text for ImageGallery1</comment>
+  </data>
+  <data name="InkDraw1_LassoSelectionButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Lasso selection</value>
+    <comment>Lasso selection button tooltip property for InkDraw1</comment>
+  </data>
+  <data name="InkDraw1_LassoSelectionButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Lasso selection</value>
+    <comment>Lasso selection button automation name property for InkDraw1</comment>
+  </data>
+  <data name="InkDraw1_TouchInkingButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Touch inking</value>
+    <comment>Touch inking button tooltip property for InkDraw1</comment>
+  </data>
+  <data name="InkDraw1_TouchInkingButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Touch inking</value>
+    <comment>Touch inking button automation name property for InkDraw1</comment>
+  </data>
+  <data name="InkDraw1_MouseInkingButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Mouse inking</value>
+    <comment>Mouse inking button tooltip property for InkDraw1</comment>
+  </data>
+  <data name="InkDraw1_MouseInkingButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Mouse inking</value>
+    <comment>Mouse inking button automation name property for InkDraw1</comment>
+  </data>
+  <data name="InkDraw1_ZoomInButton.Label" xml:space="preserve">
+    <value>Zoom in</value>
+    <comment>ZoomIn button label property for InkDraw1</comment>
+  </data>
+    <data name="InkDraw1_ZoomInButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Zoom in</value>
+    <comment>ZoomIn button tooltip property for InkDraw1</comment>
+  </data>
+  <data name="InkDraw1_ZoomInButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Zoom in</value>
+    <comment>ZoomIn button automation name property for InkDraw1</comment>
+  </data>
+  <data name="InkDraw1_ZoomOutButton.Label" xml:space="preserve">
+    <value>Zoom out</value>
+    <comment>ZoomOut button label property for InkDraw1</comment>
+  </data>
+    <data name="InkDraw1_ZoomOutButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Zoom out</value>
+    <comment>ZoomOut button tooltip property for InkDraw1</comment>
+  </data>
+  <data name="InkDraw1_ZoomOutButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Zoom out</value>
+    <comment>ZoomOut button automation name property for InkDraw1</comment>
+  </data>
+  <data name="InkDraw1_CutButton.Label" xml:space="preserve">
+    <value>Cut</value>
+    <comment>Cut button label property for InkDraw1</comment>
+  </data>
+    <data name="InkDraw1_CutButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Cut</value>
+    <comment>Cut button tooltip property for InkDraw1</comment>
+  </data>
+  <data name="InkDraw1_CutButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Cut</value>
+    <comment>Cut button automation name property for InkDraw1</comment>
+  </data>
+  <data name="InkDraw1_CopyButton.Label" xml:space="preserve">
+    <value>Copy</value>
+    <comment>Copy button label property for InkDraw1</comment>
+  </data>
+    <data name="InkDraw1_CopyButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Copy</value>
+    <comment>Copy button tooltip property for InkDraw1</comment>
+  </data>
+  <data name="InkDraw1_CopyButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Copy</value>
+    <comment>Copy button automation name property for InkDraw1</comment>
+  </data>
+  <data name="InkDraw1_PasteButton.Label" xml:space="preserve">
+    <value>Paste</value>
+    <comment>Paste button label property for InkDraw1</comment>
+  </data>
+    <data name="InkDraw1_PasteButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Paste</value>
+    <comment>Paste button tooltip property for InkDraw1</comment>
+  </data>
+  <data name="InkDraw1_PasteButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Paste</value>
+    <comment>Paste button automation name property for InkDraw1</comment>
+  </data>
+  <data name="InkDraw1_UndoButton.Label" xml:space="preserve">
+    <value>Undo</value>
+    <comment>Undo button label property for InkDraw1</comment>
+  </data>
+    <data name="InkDraw1_UndoButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Undo</value>
+    <comment>Undo button tooltip property for InkDraw1</comment>
+  </data>
+  <data name="InkDraw1_UndoButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Undo</value>
+    <comment>Undo button automation name property for InkDraw1</comment>
+  </data>
+  <data name="InkDraw1_RedoButton.Label" xml:space="preserve">
+    <value>Redo</value>
+    <comment>Redo button label property for InkDraw1</comment>
+  </data>
+    <data name="InkDraw1_RedoButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Redo</value>
+    <comment>Redo button tooltip property for InkDraw1</comment>
+  </data>
+  <data name="InkDraw1_RedoButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Redo</value>
+    <comment>Redo button automation name property for InkDraw1</comment>
+  </data>
+  <data name="InkDraw1_LoadInkFileButton.Label" xml:space="preserve">
+    <value>Load ink file</value>
+    <comment>LoadInkFile button label property for InkDraw1</comment>
+  </data>
+    <data name="InkDraw1_LoadInkFileButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Load ink file</value>
+    <comment>LoadInkFile button tooltip property for InkDraw1</comment>
+  </data>
+  <data name="InkDraw1_LoadInkFileButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Load ink file</value>
+    <comment>LoadInkFile button automation name property for InkDraw1</comment>
+  </data>
+  <data name="InkDraw1_SaveInkFileButton.Label" xml:space="preserve">
+    <value>Save ink file</value>
+    <comment>SaveInkFile button label property for InkDraw1</comment>
+  </data>
+    <data name="InkDraw1_SaveInkFileButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Save ink file</value>
+    <comment>SaveInkFile button tooltip property for InkDraw1</comment>
+  </data>
+  <data name="InkDraw1_SaveInkFileButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Save ink file</value>
+    <comment>SaveInkFile button automation name property for InkDraw1</comment>
+  </data>
+  <data name="InkDraw1_ExportAsImageButton.Label" xml:space="preserve">
+    <value>Export as image</value>
+    <comment>ExportAsImage button label property for InkDraw1</comment>
+  </data>
+    <data name="InkDraw1_ExportAsImageButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Export as image</value>
+    <comment>ExportAsImage button tooltip property for InkDraw1</comment>
+  </data>
+  <data name="InkDraw1_ExportAsImageButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Export as image</value>
+    <comment>ExportAsImage button automation name property for InkDraw1</comment>
+  </data>
+  <data name="InkDraw1_ClearAllButton.Label" xml:space="preserve">
+    <value>Clear all</value>
+    <comment>ClearAll button label property for InkDraw1</comment>
+  </data>
+    <data name="InkDraw1_ClearAllButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Clear all</value>
+    <comment>ClearAll button tooltip property for InkDraw1</comment>
+  </data>
+  <data name="InkDraw1_ClearAllButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Clear all</value>
+    <comment>ClearAll button automation name property for InkDraw1</comment>
+  </data>
+  <data name="ShellMenuItem_Views_InkDraw1.Text" xml:space="preserve">
+    <value>InkDraw1</value>
+    <comment>Menu item text for InkDraw1</comment>
+  </data>
+  <data name="InkSmartCanvas1_LassoSelectionButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Lasso selection</value>
+    <comment>Lasso selection button tooltip property for InkSmartCanvas1</comment>
+  </data>
+  <data name="InkSmartCanvas1_LassoSelectionButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Lasso selection</value>
+    <comment>Lasso selection button automation name property for InkSmartCanvas1</comment>
+  </data>
+  <data name="InkSmartCanvas1_TouchInkingButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Touch inking</value>
+    <comment>Touch inking button tooltip property for InkSmartCanvas1</comment>
+  </data>
+  <data name="InkSmartCanvas1_TouchInkingButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Touch inking</value>
+    <comment>Touch inking button automation name property for InkSmartCanvas1</comment>
+  </data>
+  <data name="InkSmartCanvas1_MouseInkingButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Mouse inking</value>
+    <comment>Mouse inking button tooltip property for InkSmartCanvas1</comment>
+  </data>
+  <data name="InkSmartCanvas1_MouseInkingButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Mouse inking</value>
+    <comment>Mouse inking button automation name property for InkSmartCanvas1</comment>
+  </data>
+  <data name="InkSmartCanvas1_PenInkingButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Pen inking</value>
+    <comment>Pen inking button tooltip property for InkSmartCanvas1</comment>
+  </data>
+  <data name="InkSmartCanvas1_PenInkingButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Pen inking</value>
+    <comment>Pen inking button automation name property for InkSmartCanvas1</comment>
+  </data>
+  <data name="InkSmartCanvas1_UndoButton.Label" xml:space="preserve">
+    <value>Undo</value>
+    <comment>Undo button label property for InkSmartCanvas1</comment>
+  </data>
+    <data name="InkSmartCanvas1_UndoButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Undo</value>
+    <comment>Undo button tooltip property for InkSmartCanvas1</comment>
+  </data>
+  <data name="InkSmartCanvas1_UndoButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Undo</value>
+    <comment>Undo button automation name property for InkSmartCanvas1</comment>
+  </data>
+  <data name="InkSmartCanvas1_RedoButton.Label" xml:space="preserve">
+    <value>Redo</value>
+    <comment>Redo button label property for InkSmartCanvas1</comment>
+  </data>
+    <data name="InkSmartCanvas1_RedoButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Redo</value>
+    <comment>Redo button tooltip property for InkSmartCanvas1</comment>
+  </data>
+  <data name="InkSmartCanvas1_RedoButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Redo</value>
+    <comment>Redo button automation name property for InkSmartCanvas1</comment>
+  </data>
+  <data name="InkSmartCanvas1_LoadInkFileButton.Label" xml:space="preserve">
+    <value>Load ink file</value>
+    <comment>LoadInkFile button label property for InkSmartCanvas1</comment>
+  </data>
+    <data name="InkSmartCanvas1_LoadInkFileButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Load ink file</value>
+    <comment>LoadInkFile button tooltip property for InkSmartCanvas1</comment>
+  </data>
+  <data name="InkSmartCanvas1_LoadInkFileButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Load ink file</value>
+    <comment>LoadInkFile button automation name property for InkSmartCanvas1</comment>
+  </data>
+  <data name="InkSmartCanvas1_SaveInkFileButton.Label" xml:space="preserve">
+    <value>Save ink file</value>
+    <comment>SaveInkFile button label property for InkSmartCanvas1</comment>
+  </data>
+    <data name="InkSmartCanvas1_SaveInkFileButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Save ink file</value>
+    <comment>SaveInkFile button tooltip property for InkSmartCanvas1</comment>
+  </data>
+  <data name="InkSmartCanvas1_SaveInkFileButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Save ink file</value>
+    <comment>SaveInkFile button automation name property for InkSmartCanvas1</comment>
+  </data>
+  <data name="InkSmartCanvas1_TransformTextAndShapesButton.Label" xml:space="preserve">
+    <value>Transform text and shapes</value>
+    <comment>TransformTextAndShapes button label property for InkSmartCanvas1</comment>
+  </data>
+    <data name="InkSmartCanvas1_TransformTextAndShapesButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Transform text and shapes</value>
+    <comment>TransformTextAndShapes button tooltip property for InkSmartCanvas1</comment>
+  </data>
+  <data name="InkSmartCanvas1_TransformTextAndShapesButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Transform text and shapes</value>
+    <comment>TransformTextAndShapes button automation name property for InkSmartCanvas1</comment>
+  </data>
+  <data name="InkSmartCanvas1_ClearAllButton.Label" xml:space="preserve">
+    <value>Clear all</value>
+    <comment>ClearAll button label property for InkSmartCanvas1</comment>
+  </data>
+    <data name="InkSmartCanvas1_ClearAllButton.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Clear all</value>
+    <comment>ClearAll button tooltip property for InkSmartCanvas1</comment>
+  </data>
+  <data name="InkSmartCanvas1_ClearAllButton.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Clear all</value>
+    <comment>ClearAll button automation name property for InkSmartCanvas1</comment>
+  </data>
+  <data name="ShellMenuItem_Views_InkSmartCanvas1.Text" xml:space="preserve">
+    <value>InkSmartCanvas1</value>
+    <comment>Menu item text for InkSmartCanvas1</comment>
+  </data>
+  <data name="ExceptionSettingsStorageExtensionsFileNameIsNullOrEmpty" xml:space="preserve">
+    <value>File name is null or empty. Specify a valid file name</value>
+    <comment>File name is null or empty to save file in settings storage extensions</comment>
+  </data>
+  <data name="ExceptionViewLifeTimeControlViewDisposal" xml:space="preserve">
+    <value>This view is being disposed.</value>
+    <comment>View disposed</comment>
+  </data>
+  <data name="ExceptionViewLifeTimeControlMissingReleasedSubscription" xml:space="preserve">
+    <value>All pages opened in a new window must subscribe to the Released Event.</value>
+    <comment>The page is not subscribed to the Released event.</comment>
+  </data>
+</root>
