@@ -5,6 +5,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Logging;
 
 namespace grpcsample
 {
@@ -17,6 +19,19 @@ namespace grpcsample
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
+                .ConfigureAppConfiguration(config =>
+                {
+                    config.SetBasePath(Directory.GetCurrentDirectory())
+                        .AddJsonFile("mysettings.json", optional: true)
+                        .AddEnvironmentVariables()
+                        .AddCommandLine(args);
+                })
+                .ConfigureLogging(logging =>
+                {
+                    logging.AddConsole()
+                        .AddDebug()
+                        .AddFilter(level => level >= LogLevel.Trace);
+                })
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
